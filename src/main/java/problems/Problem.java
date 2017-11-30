@@ -10,6 +10,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Problem implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1800621033317921940L;
+	
 	private String dateOfOnset;
 	private String problemNumber;
 	private String snomedCode;
